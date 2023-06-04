@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\lucio\source\repos\mdi1\build\CMakeFiles\42b413b8b102e51d77e9bf660fccc77c\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4B53DE51-9314-3D6C-B30B-C90968A78F78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

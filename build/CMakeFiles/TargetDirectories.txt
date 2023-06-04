@@ -1,0 +1,4 @@
+C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/mdi.dir
+C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/INSTALL.dir
+C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/ZERO_CHECK.dir

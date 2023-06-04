@@ -1,0 +1,357 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Compilazione avviata 04/06/2023 01:16:22.
+      
+      Progetto "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" sul nodo 1 (destinazioni predefinite).
+      PrepareForBuild:
+        Creazione directory "Debug\\".
+        Creazione directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creazione di "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Eliminazione del file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" in corso.
+        Aggiornamento timestamp di "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilazione progetto "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinazioni predefinite) completata.
+      
+      Compilazione completata.
+          Avvisi: 0
+          Errori: 0
+      
+      Tempo trascorso 00:00:01.39
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-fqfyrw"
+      binary: "C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-fqfyrw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-fqfyrw
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3683f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Compilazione avviata 04/06/2023 01:16:24.
+        
+        Progetto "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqfyrw\\cmTC_3683f.vcxproj" sul nodo 1 (destinazioni predefinite).
+        PrepareForBuild:
+          Creazione directory "cmTC_3683f.dir\\Debug\\".
+          Creazione directory "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqfyrw\\Debug\\".
+          Creazione directory "cmTC_3683f.dir\\Debug\\cmTC_3683f.tlog\\".
+        InitializeBuildStatus:
+          Creazione di "cmTC_3683f.dir\\Debug\\cmTC_3683f.tlog\\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3683f.dir\\Debug\\\\" /Fd"cmTC_3683f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler versione 19.36.32532 per x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3683f.dir\\Debug\\\\" /Fd"cmTC_3683f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqfyrw\\Debug\\cmTC_3683f.exe" /INCREMENTAL /ILK:"cmTC_3683f.dir\\Debug\\cmTC_3683f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-fqfyrw/Debug/cmTC_3683f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-fqfyrw/Debug/cmTC_3683f.lib" /MACHINE:X64  /machine:x64 cmTC_3683f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_3683f.vcxproj -> C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqfyrw\\Debug\\cmTC_3683f.exe
+        FinalizeBuildStatus:
+          Eliminazione del file "cmTC_3683f.dir\\Debug\\cmTC_3683f.tlog\\unsuccessfulbuild" in corso.
+          Aggiornamento timestamp di "cmTC_3683f.dir\\Debug\\cmTC_3683f.tlog\\cmTC_3683f.lastbuildstate".
+        Compilazione progetto "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fqfyrw\\cmTC_3683f.vcxproj" (destinazioni predefinite) completata.
+        
+        Compilazione completata.
+            Avvisi: 0
+            Errori: 0
+        
+        Tempo trascorso 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:112 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-oqt9b6"
+      binary: "C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-oqt9b6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-oqt9b6
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_965ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Compilazione avviata 04/06/2023 01:16:25.
+        
+        Progetto "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqt9b6\\cmTC_965ba.vcxproj" sul nodo 1 (destinazioni predefinite).
+        PrepareForBuild:
+          Creazione directory "cmTC_965ba.dir\\Debug\\".
+          Creazione directory "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqt9b6\\Debug\\".
+          Creazione directory "cmTC_965ba.dir\\Debug\\cmTC_965ba.tlog\\".
+        InitializeBuildStatus:
+          Creazione di "cmTC_965ba.dir\\Debug\\cmTC_965ba.tlog\\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_965ba.dir\\Debug\\\\" /Fd"cmTC_965ba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqt9b6\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler versione 19.36.32532 per x64
+          src.cxx
+          Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_965ba.dir\\Debug\\\\" /Fd"cmTC_965ba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqt9b6\\src.cxx"
+        C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqt9b6\\src.cxx(1,10): fatal  error C1083: Non Š possibile aprire il file inclusione: 'pthread.h': No such file or directory [C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqt9b6\\cmTC_965ba.vcxproj]
+        Compilazione progetto "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqt9b6\\cmTC_965ba.vcxproj" (destinazioni predefinite) NON COMPLETATA.
+        
+        Compilazione NON RIUSCITA.
+        
+        "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqt9b6\\cmTC_965ba.vcxproj" (destinazione predefinita) (1) ->
+        (destinazione: ClCompile) -> 
+          C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqt9b6\\src.cxx(1,10): fatal  error C1083: Non Š possibile aprire il file inclusione: 'pthread.h': No such file or directory [C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqt9b6\\cmTC_965ba.vcxproj]
+        
+            Avvisi: 0
+            Errori: 1
+        
+        Tempo trascorso 00:00:00.44
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:112 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-vizfs4"
+      binary: "C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-vizfs4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-vizfs4
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cd200.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Compilazione avviata 04/06/2023 01:16:26.
+        
+        Progetto "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vizfs4\\cmTC_cd200.vcxproj" sul nodo 1 (destinazioni predefinite).
+        PrepareForBuild:
+          Creazione directory "cmTC_cd200.dir\\Debug\\".
+          Creazione directory "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vizfs4\\Debug\\".
+          Creazione directory "cmTC_cd200.dir\\Debug\\cmTC_cd200.tlog\\".
+        InitializeBuildStatus:
+          Creazione di "cmTC_cd200.dir\\Debug\\cmTC_cd200.tlog\\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_cd200.dir\\Debug\\\\" /Fd"cmTC_cd200.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vizfs4\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler versione 19.36.32532 per x64
+          CheckFunctionExists.cxx
+          Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_cd200.dir\\Debug\\\\" /Fd"cmTC_cd200.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vizfs4\\CheckFunctionExists.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vizfs4\\Debug\\cmTC_cd200.exe" /INCREMENTAL /ILK:"cmTC_cd200.dir\\Debug\\cmTC_cd200.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-vizfs4/Debug/cmTC_cd200.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-vizfs4/Debug/cmTC_cd200.lib" /MACHINE:X64  /machine:x64 cmTC_cd200.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: impossibile aprire il file 'pthreads.lib' [C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vizfs4\\cmTC_cd200.vcxproj]
+        Compilazione progetto "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vizfs4\\cmTC_cd200.vcxproj" (destinazioni predefinite) NON COMPLETATA.
+        
+        Compilazione NON RIUSCITA.
+        
+        "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vizfs4\\cmTC_cd200.vcxproj" (destinazione predefinita) (1) ->
+        (destinazione: Link) -> 
+          LINK : fatal error LNK1104: impossibile aprire il file 'pthreads.lib' [C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vizfs4\\cmTC_cd200.vcxproj]
+        
+            Avvisi: 0
+            Errori: 1
+        
+        Tempo trascorso 00:00:00.48
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:112 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-nfubg0"
+      binary: "C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-nfubg0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-nfubg0
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_acee4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Compilazione avviata 04/06/2023 01:16:27.
+        
+        Progetto "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nfubg0\\cmTC_acee4.vcxproj" sul nodo 1 (destinazioni predefinite).
+        PrepareForBuild:
+          Creazione directory "cmTC_acee4.dir\\Debug\\".
+          Creazione directory "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nfubg0\\Debug\\".
+          Creazione directory "cmTC_acee4.dir\\Debug\\cmTC_acee4.tlog\\".
+        InitializeBuildStatus:
+          Creazione di "cmTC_acee4.dir\\Debug\\cmTC_acee4.tlog\\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_acee4.dir\\Debug\\\\" /Fd"cmTC_acee4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nfubg0\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler versione 19.36.32532 per x64
+          Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+          CheckFunctionExists.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_acee4.dir\\Debug\\\\" /Fd"cmTC_acee4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nfubg0\\CheckFunctionExists.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nfubg0\\Debug\\cmTC_acee4.exe" /INCREMENTAL /ILK:"cmTC_acee4.dir\\Debug\\cmTC_acee4.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-nfubg0/Debug/cmTC_acee4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-nfubg0/Debug/cmTC_acee4.lib" /MACHINE:X64  /machine:x64 cmTC_acee4.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: impossibile aprire il file 'pthread.lib' [C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nfubg0\\cmTC_acee4.vcxproj]
+        Compilazione progetto "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nfubg0\\cmTC_acee4.vcxproj" (destinazioni predefinite) NON COMPLETATA.
+        
+        Compilazione NON RIUSCITA.
+        
+        "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nfubg0\\cmTC_acee4.vcxproj" (destinazione predefinita) (1) ->
+        (destinazione: Link) -> 
+          LINK : fatal error LNK1104: impossibile aprire il file 'pthread.lib' [C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nfubg0\\cmTC_acee4.vcxproj]
+        
+            Avvisi: 0
+            Errori: 1
+        
+        Tempo trascorso 00:00:00.47
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:40 (include)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:157 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-ltb729"
+      binary: "C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-ltb729"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin;C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.5.0/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-ltb729
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_db857.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Compilazione avviata 04/06/2023 01:16:28.
+        
+        Progetto "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ltb729\\cmTC_db857.vcxproj" sul nodo 1 (destinazioni predefinite).
+        PrepareForBuild:
+          Creazione directory "cmTC_db857.dir\\Debug\\".
+          Creazione directory "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ltb729\\Debug\\".
+          Creazione directory "cmTC_db857.dir\\Debug\\cmTC_db857.tlog\\".
+        InitializeBuildStatus:
+          Creazione di "cmTC_db857.dir\\Debug\\cmTC_db857.tlog\\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_db857.dir\\Debug\\\\" /Fd"cmTC_db857.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ltb729\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler versione 19.36.32532 per x64
+          src.cxx
+          Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_db857.dir\\Debug\\\\" /Fd"cmTC_db857.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ltb729\\src.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ltb729\\Debug\\cmTC_db857.exe" /INCREMENTAL /ILK:"cmTC_db857.dir\\Debug\\cmTC_db857.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-ltb729/Debug/cmTC_db857.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/lucio/source/repos/mdi1/build/CMakeFiles/CMakeScratch/TryCompile-ltb729/Debug/cmTC_db857.lib" /MACHINE:X64  /machine:x64 cmTC_db857.dir\\Debug\\src.obj
+          cmTC_db857.vcxproj -> C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ltb729\\Debug\\cmTC_db857.exe
+        FinalizeBuildStatus:
+          Eliminazione del file "cmTC_db857.dir\\Debug\\cmTC_db857.tlog\\unsuccessfulbuild" in corso.
+          Aggiornamento timestamp di "cmTC_db857.dir\\Debug\\cmTC_db857.tlog\\cmTC_db857.lastbuildstate".
+        Compilazione progetto "C:\\Users\\lucio\\source\\repos\\mdi1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ltb729\\cmTC_db857.vcxproj" (destinazioni predefinite) completata.
+        
+        Compilazione completata.
+            Avvisi: 0
+            Errori: 0
+        
+        Tempo trascorso 00:00:00.72
+        
+      exitCode: 0
+...
